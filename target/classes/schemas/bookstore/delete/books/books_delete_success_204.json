@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Books Delete Success Response",
+  "description": "Schema for successful deletion of books.",
+  "required": [
+    "userId",
+    "message"
+  ],
+  "properties": {
+    "userId": {
+      "type": "string",
+      "description": "The user ID associated with the request."
+    },
+    "message": {
+      "type": "string",
+      "description": "A message indicating the success of the operation."
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,498 @@
+24/09/2024 18:38:16  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 18:38:18  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:38:18  INFO [main] Hooks : ID do cenário: 28ceeeb3-5b24-410e-8eb2-042edb1c68ca
+24/09/2024 18:38:18  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 18:38:18  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 18:38:18  INFO [main] AuthorizedController : acessando Authorized com o methodo post com os paramentos userName: NickFirmino e password: F!rm!no@24111994
+24/09/2024 18:38:21  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 18:38:21  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 18:38:21  INFO [main] AuthorizedController : validando a response de Post Authorized Success com Schema
+24/09/2024 18:38:21  INFO [main] AuthorizedController : erro de validacao: java.io.FileNotFoundException: Arquivo de schema não encontrado: schemas/account/authorizedauthorized_post_success_200.json
+24/09/2024 18:38:21  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:38:21  INFO [main] Hooks : ID do cenário: 28ceeeb3-5b24-410e-8eb2-042edb1c68ca
+24/09/2024 18:38:21  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 18:41:41  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 18:41:42  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:41:42  INFO [main] Hooks : ID do cenário: a9392e36-1bcd-4a76-9830-8a8dd7e26078
+24/09/2024 18:41:42  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 18:41:42  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 18:41:42  INFO [main] AuthorizedController : acessando Authorized com o methodo post com os paramentos userName: NickFirmino e password: F!rm!no@24111994
+24/09/2024 18:41:45  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 18:41:45  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 18:41:45  INFO [main] AuthorizedController : validando a response de Post Authorized Success com Schema
+24/09/2024 18:41:45  INFO [main] AuthorizedController : erro de validacao: java.io.FileNotFoundException: Arquivo de schema não encontrado: schemas/account/authorizedauthorized_post_success_200.json
+24/09/2024 18:41:45  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:41:45  INFO [main] Hooks : ID do cenário: a9392e36-1bcd-4a76-9830-8a8dd7e26078
+24/09/2024 18:41:45  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 18:45:13  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 18:45:13  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 18:45:31  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 18:45:31  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 18:45:31  INFO [main] AuthorizedController : validando a response de Post Authorized Success com Schema
+24/09/2024 18:45:31  INFO [main] AuthorizedController : erro de validacao: java.io.FileNotFoundException: Arquivo de schema não encontrado: schemas/account/authorizedauthorized_post_success_200.json
+24/09/2024 18:47:03  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 18:47:03  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 18:47:03  INFO [main] AuthorizedController : validando a response de Post Authorized Success com Schema
+24/09/2024 18:47:03  INFO [main] AuthorizedController : erro de validacao: java.io.FileNotFoundException: Arquivo de schema não encontrado: schemas/account/post/authorizedauthorized_post_success_200.json
+24/09/2024 18:48:35  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 18:48:35  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 18:48:35  INFO [main] AuthorizedController : validando a response de Post Authorized Success com Schema
+24/09/2024 18:48:35 ERROR [main] SchemaValidator : Erro inesperado durante a validação do schema: Cannot invoke "io.restassured.response.Response.then()" because "response" is null
+java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.then()" because "response" is null
+	at utils.schemas.SchemaValidator.validateResponseBodyWithJSONSchema(SchemaValidator.java:162) [classes/:?]
+	at controller.test.account.AuthorizedController.isValidPostAuthorizedSuccessWithSchema(AuthorizedController.java:45) [classes/:?]
+	at controller.test.account.AuthorizedController.main(AuthorizedController.java:70) [classes/:?]
+24/09/2024 18:49:23  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 18:49:24  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:49:24  INFO [main] Hooks : ID do cenário: 20b2ba7b-b1e6-4ebe-9b16-583aa34b1406
+24/09/2024 18:49:24  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 18:49:24  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 18:49:24  INFO [main] AuthorizedController : acessando Authorized com o methodo post com os paramentos userName: NickFirmino e password: F!rm!no@24111994
+24/09/2024 18:49:27  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 18:49:27  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 18:49:27  INFO [main] AuthorizedController : validando a response de Post Authorized Success com Schema
+24/09/2024 18:49:27  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:49:27  INFO [main] Hooks : ID do cenário: 20b2ba7b-b1e6-4ebe-9b16-583aa34b1406
+24/09/2024 18:49:27  INFO [main] Hooks : Status do cenário: PASSED
+24/09/2024 18:53:13  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 18:53:15  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:53:15  INFO [main] Hooks : ID do cenário: 07e08394-bf86-430b-a57e-45defef521a4
+24/09/2024 18:53:15  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 18:53:15  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 18:53:17  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 18:53:17  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 18:53:18  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:53:18  INFO [main] Hooks : ID do cenário: 07e08394-bf86-430b-a57e-45defef521a4
+24/09/2024 18:53:18  INFO [main] Hooks : Status do cenário: PASSED
+24/09/2024 18:54:42  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 18:54:43  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:54:43  INFO [main] Hooks : ID do cenário: 3c9ad146-d088-430e-9932-c5a7b92cc077
+24/09/2024 18:54:43  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 18:54:43  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 18:54:46  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111995, userName=NickFirmino}
+24/09/2024 18:54:46  INFO [main] GeneralRequest : Código de status da resposta: 404
+24/09/2024 18:54:46  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 18:54:46  INFO [main] Hooks : ID do cenário: 3c9ad146-d088-430e-9932-c5a7b92cc077
+24/09/2024 18:54:46  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 19:06:36  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:06:37  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:06:37  INFO [main] Hooks : ID do cenário: fa88cef4-032c-462b-a713-911a9816e33f
+24/09/2024 19:06:37  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:06:37  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:06:40  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 19:06:40  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 19:06:40 ERROR [main] AuthorizedController : Erro durante a validação da resposta com o modelo: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `model.test.response.account.authorized.AuthorizedPostSuccessResponse` (although at least one Creator exists): no boolean/Boolean-argument constructor/factory method to deserialize from boolean value (true)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `model.test.response.account.authorized.AuthorizedPostSuccessResponse` (although at least one Creator exists): no boolean/Boolean-argument constructor/factory method to deserialize from boolean value (true)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30) ~[json-path-5.5.0.jar:?]
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.mapper.ObjectMapper$deserialize.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$0.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169) ~[rest-assured-5.5.0.jar:?]
+	at controller.test.account.AuthorizedController.isValidPostAuthorizedSuccessWithModel(AuthorizedController.java:58) [classes/:?]
+	at steps.test.account.AuthorizedSteps.com_corpo_de_resposta_com_true(AuthorizedSteps.java:45) [classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) [cucumber-junit-7.18.1.jar:7.18.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) [cucumber-junit-7.18.1.jar:7.18.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226) [cucumber-junit-7.18.1.jar:7.18.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36) [junit-4.13.2.jar:4.13.2]
+	at runners.Runner.runJUnit4(Runner.java:45) [classes/:?]
+	at runners.Runner.main(Runner.java:17) [classes/:?]
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `model.test.response.account.authorized.AuthorizedPostSuccessResponse` (although at least one Creator exists): no boolean/Boolean-argument constructor/factory method to deserialize from boolean value (true)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1754) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1379) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.ValueInstantiator.createFromBoolean(ValueInstantiator.java:371) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.std.StdValueInstantiator.createFromBoolean(StdValueInstantiator.java:529) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromBoolean(BeanDeserializerBase.java:1655) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:206) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4917) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3860) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28) ~[json-path-5.5.0.jar:?]
+	... 81 more
+24/09/2024 19:06:40  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:06:40  INFO [main] Hooks : ID do cenário: fa88cef4-032c-462b-a713-911a9816e33f
+24/09/2024 19:06:40  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 19:07:22  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:07:24  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:07:24  INFO [main] Hooks : ID do cenário: e36eacf9-345d-48a5-a994-d0d81ec12ee0
+24/09/2024 19:07:24  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:07:24  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:07:26  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 19:07:26  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 19:07:27 ERROR [main] AuthorizedController : Erro durante a validação da resposta com o modelo: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `model.test.response.account.authorized.AuthorizedPostSuccessResponse` (although at least one Creator exists): no boolean/Boolean-argument constructor/factory method to deserialize from boolean value (true)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `model.test.response.account.authorized.AuthorizedPostSuccessResponse` (although at least one Creator exists): no boolean/Boolean-argument constructor/factory method to deserialize from boolean value (true)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30) ~[json-path-5.5.0.jar:?]
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.mapper.ObjectMapper$deserialize.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$0.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169) ~[rest-assured-5.5.0.jar:?]
+	at controller.test.account.AuthorizedController.isValidPostAuthorizedSuccessWithModel(AuthorizedController.java:58) [classes/:?]
+	at steps.test.account.AuthorizedSteps.com_corpo_de_resposta_com_true(AuthorizedSteps.java:45) [classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) [cucumber-junit-7.18.1.jar:7.18.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) [cucumber-junit-7.18.1.jar:7.18.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226) [cucumber-junit-7.18.1.jar:7.18.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36) [junit-4.13.2.jar:4.13.2]
+	at runners.Runner.runJUnit4(Runner.java:45) [classes/:?]
+	at runners.Runner.main(Runner.java:17) [classes/:?]
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `model.test.response.account.authorized.AuthorizedPostSuccessResponse` (although at least one Creator exists): no boolean/Boolean-argument constructor/factory method to deserialize from boolean value (true)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1754) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1379) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.ValueInstantiator.createFromBoolean(ValueInstantiator.java:371) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.std.StdValueInstantiator.createFromBoolean(StdValueInstantiator.java:529) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromBoolean(BeanDeserializerBase.java:1655) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:206) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4917) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3860) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28) ~[json-path-5.5.0.jar:?]
+	... 81 more
+24/09/2024 19:07:27  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:07:27  INFO [main] Hooks : ID do cenário: e36eacf9-345d-48a5-a994-d0d81ec12ee0
+24/09/2024 19:07:27  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 19:12:45  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:12:46  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:12:46  INFO [main] Hooks : ID do cenário: a406dca9-6544-4dfa-aca4-22058bc3cf2a
+24/09/2024 19:12:46  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:12:46  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:12:49  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 19:12:49  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 19:12:49  INFO [main] AuthorizedController : Validação de sucesso: O corpo da resposta é válido.
+24/09/2024 19:12:49  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:12:49  INFO [main] Hooks : ID do cenário: a406dca9-6544-4dfa-aca4-22058bc3cf2a
+24/09/2024 19:12:49  INFO [main] Hooks : Status do cenário: PASSED
+24/09/2024 19:16:19  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:16:20  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:16:20  INFO [main] Hooks : ID do cenário: 9a1a26a8-c8ec-4ff6-94f0-473b2c5a81e9
+24/09/2024 19:16:20  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:16:20  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:16:23  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 19:16:23  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 19:16:24  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:16:24  INFO [main] Hooks : ID do cenário: 9a1a26a8-c8ec-4ff6-94f0-473b2c5a81e9
+24/09/2024 19:16:24  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 19:20:06  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:20:07  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:20:07  INFO [main] Hooks : ID do cenário: 03b452d9-622a-43f9-978f-f618b0a9309a
+24/09/2024 19:20:07  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:20:07  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:20:10  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 19:20:10  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 19:20:10  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:20:10  INFO [main] Hooks : ID do cenário: 03b452d9-622a-43f9-978f-f618b0a9309a
+24/09/2024 19:20:10  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 19:21:36  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:21:37  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:21:37  INFO [main] Hooks : ID do cenário: 12289dd9-30ff-43a9-9d15-782fc2ef8e87
+24/09/2024 19:21:37  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:21:37  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:21:40  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 19:21:40  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 19:21:40 ERROR [main] AuthorizedController : Erro na validação: O corpo da resposta não é válido.
+24/09/2024 19:21:40  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:21:40  INFO [main] Hooks : ID do cenário: 12289dd9-30ff-43a9-9d15-782fc2ef8e87
+24/09/2024 19:21:40  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 19:24:29  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:24:31  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:24:31  INFO [main] Hooks : ID do cenário: 3551234e-9581-408b-889e-3f5c1793e1ed
+24/09/2024 19:24:31  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:24:31  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:24:34  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111994, userName=NickFirmino}
+24/09/2024 19:24:34  INFO [main] GeneralRequest : Código de status da resposta: 200
+24/09/2024 19:24:34  INFO [main] AuthorizedController : Validação de sucesso: O corpo da resposta é válido.
+24/09/2024 19:24:34  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:24:34  INFO [main] Hooks : ID do cenário: 3551234e-9581-408b-889e-3f5c1793e1ed
+24/09/2024 19:24:34  INFO [main] Hooks : Status do cenário: PASSED
+24/09/2024 19:25:22  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:25:24  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:25:24  INFO [main] Hooks : ID do cenário: a3259150-b5b2-4de1-b0d3-820d6192502c
+24/09/2024 19:25:24  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:25:24  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:25:26  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111995, userName=NickFirmino}
+24/09/2024 19:25:27 ERROR [main] AuthorizedController : Erro durante a validação da resposta com o modelo: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "code" (class model.test.response.account.authorized.AuthorizedPostSuccessResponse), not marked as ignorable (one known property: "success"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 10] (through reference chain: model.test.response.account.authorized.AuthorizedPostSuccessResponse["code"])
+java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "code" (class model.test.response.account.authorized.AuthorizedPostSuccessResponse), not marked as ignorable (one known property: "success"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 10] (through reference chain: model.test.response.account.authorized.AuthorizedPostSuccessResponse["code"])
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30) ~[json-path-5.5.0.jar:?]
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.mapper.ObjectMapper$deserialize.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$0.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) ~[groovy-4.0.22.jar:4.0.22]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-4.0.22.jar:4.0.22]
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229) ~[rest-assured-5.5.0.jar:?]
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169) ~[rest-assured-5.5.0.jar:?]
+	at controller.test.account.AuthorizedController.isValidPostAuthorizedSuccessWithModel(AuthorizedController.java:58) [classes/:?]
+	at steps.test.account.AuthorizedSteps.com_corpo_de_resposta_com_true(AuthorizedSteps.java:45) [classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) [cucumber-junit-7.18.1.jar:7.18.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196) [cucumber-junit-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) [cucumber-junit-7.18.1.jar:7.18.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145) [cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226) [cucumber-junit-7.18.1.jar:7.18.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36) [junit-4.13.2.jar:4.13.2]
+	at runners.Runner.runJUnit4(Runner.java:45) [classes/:?]
+	at runners.Runner.main(Runner.java:17) [classes/:?]
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "code" (class model.test.response.account.authorized.AuthorizedPostSuccessResponse), not marked as ignorable (one known property: "success"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 10] (through reference chain: model.test.response.account.authorized.AuthorizedPostSuccessResponse["code"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1153) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2241) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1821) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1799) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:316) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4917) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3860) ~[jackson-databind-2.18.0-rc1.jar:2.18.0-rc1]
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28) ~[json-path-5.5.0.jar:?]
+	... 81 more
+24/09/2024 19:25:27  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:25:27  INFO [main] Hooks : ID do cenário: a3259150-b5b2-4de1-b0d3-820d6192502c
+24/09/2024 19:25:27  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 19:25:46  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:25:48  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:25:48  INFO [main] Hooks : ID do cenário: f64fd0a0-8899-449d-99a0-1b46e8c1a7f7
+24/09/2024 19:25:48  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:25:48  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:25:50  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111995, userName=NickFirmino}
+24/09/2024 19:25:51 ERROR [main] SchemaValidator : Erro na validação do schema: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [const]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":""}
+    domain: "syntax"
+    ignored: ["const"]
+error: instance type (object) does not match any allowed primitive type (allowed: ["boolean"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "type"
+    found: "object"
+    expected: ["boolean"]
+
+  Actual: {"code":"1207","message":"User not found!"}
+
+24/09/2024 19:25:51  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:25:51  INFO [main] Hooks : ID do cenário: f64fd0a0-8899-449d-99a0-1b46e8c1a7f7
+24/09/2024 19:25:51  INFO [main] Hooks : Status do cenário: FAILED
+24/09/2024 19:26:03  INFO [main] Runner : Executando testes com JUnit 4...
+24/09/2024 19:26:04  INFO [main] Hooks : Iniciando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:26:04  INFO [main] Hooks : ID do cenário: b3032432-4c43-4897-abb3-0919f7329c0b
+24/09/2024 19:26:04  INFO [main] ApiRest : Obtendo as propriedades de configuração...
+24/09/2024 19:26:04  INFO [main] ApiRest : Propriedades de configuração carregadas com sucesso.
+24/09/2024 19:26:07  INFO [main] PostRequest : calling the post method with params: url=https://demoqa.com/Account/v1/Authorized, body={password=F!rm!no@24111995, userName=NickFirmino}
+24/09/2024 19:26:07  INFO [main] GeneralRequest : Código de status da resposta: 404
+24/09/2024 19:26:07  INFO [main] Hooks : Finalizando o cenário: Consulta de autorizacao com sucesso [200]
+24/09/2024 19:26:07  INFO [main] Hooks : ID do cenário: b3032432-4c43-4897-abb3-0919f7329c0b
+24/09/2024 19:26:07  INFO [main] Hooks : Status do cenário: FAILED

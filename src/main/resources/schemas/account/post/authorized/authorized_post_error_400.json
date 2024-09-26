@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Bad Request Response",
+  "description": "The response for a bad request with an error message",
+  "properties": {
+    "code": {
+      "type": "integer",
+      "description": "The error code",
+      "example": 0
+    },
+    "message": {
+      "type": "string",
+      "description": "The error message",
+      "example": "Invalid request"
+    }
+  },
+  "required": ["code", "message"],
+  "additionalProperties": false
+}

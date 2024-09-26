@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Books Post Success Response",
+  "description": "Schema for a successful response when a book is created.",
+  "required": [
+    "isbn"
+  ],
+  "properties": {
+    "isbn": {
+      "type": "string",
+      "description": "The ISBN of the newly created book."
+    }
+  },
+  "additionalProperties": false
+}

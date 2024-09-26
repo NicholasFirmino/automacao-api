@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "User Not Acceptable Error Response",
+  "description": "Schema for error response when the request is not acceptable.",
+  "required": [
+    "code",
+    "message"
+  ],
+  "properties": {
+    "code": {
+      "type": "integer",
+      "description": "Error code."
+    },
+    "message": {
+      "type": "string",
+      "description": "Error message detailing the issue."
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Books Post Unauthorized Response",
+  "description": "Schema for an unauthorized response when trying to create a book.",
+  "required": [
+    "code",
+    "message"
+  ],
+  "properties": {
+    "code": {
+      "type": "integer",
+      "description": "The error code indicating an unauthorized request.",
+      "default": 0
+    },
+    "message": {
+      "type": "string",
+      "description": "A message explaining the unauthorized error.",
+      "default": "string"
+    }
+  },
+  "additionalProperties": false
+}

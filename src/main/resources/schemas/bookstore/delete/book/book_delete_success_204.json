@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Book Delete Success Response",
+  "description": "Schema for successful deletion of a book.",
+  "required": [
+    "userId",
+    "isbn",
+    "message"
+  ],
+  "properties": {
+    "userId": {
+      "type": "string",
+      "description": "The user ID associated with the request."
+    },
+    "isbn": {
+      "type": "string",
+      "description": "The ISBN of the deleted book."
+    },
+    "message": {
+      "type": "string",
+      "description": "A message indicating the success of the operation."
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Book Get Success Response",
+  "description": "Schema for successful retrieval of a book.",
+  "required": [
+    "isbn",
+    "title",
+    "subTitle",
+    "author",
+    "publish_date",
+    "publisher",
+    "pages",
+    "description",
+    "website"
+  ],
+  "properties": {
+    "isbn": {
+      "type": "string",
+      "description": "The ISBN of the book."
+    },
+    "title": {
+      "type": "string",
+      "description": "The title of the book."
+    },
+    "subTitle": {
+      "type": "string",
+      "description": "The subtitle of the book."
+    },
+    "author": {
+      "type": "string",
+      "description": "The author of the book."
+    },
+    "publish_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The publication date of the book."
+    },
+    "publisher": {
+      "type": "string",
+      "description": "The publisher of the book."
+    },
+    "pages": {
+      "type": "integer",
+      "description": "The number of pages in the book."
+    },
+    "description": {
+      "type": "string",
+      "description": "A brief description of the book."
+    },
+    "website": {
+      "type": "string",
+      "description": "The website for more information about the book."
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "boolean",
+  "title": "Success Response",
+  "description": "The response for a successful request",
+  "const": true
+}

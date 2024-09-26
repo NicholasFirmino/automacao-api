@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Book Get Not Found Response",
+  "description": "Schema for when the requested book is not found.",
+  "required": [
+    "code",
+    "message"
+  ],
+  "properties": {
+    "code": {
+      "type": "integer",
+      "description": "Error code for book not found."
+    },
+    "message": {
+      "type": "string",
+      "description": "Message indicating the book was not found."
+    }
+  },
+  "additionalProperties": false
+}

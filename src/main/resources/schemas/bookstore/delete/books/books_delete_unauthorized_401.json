@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Books Delete Unauthorized Response",
+  "description": "Schema for an unauthorized request when trying to delete books.",
+  "required": [
+    "code",
+    "message"
+  ],
+  "properties": {
+    "code": {
+      "type": "integer",
+      "description": "The error code indicating the issue."
+    },
+    "message": {
+      "type": "string",
+      "description": "A message providing details about the error."
+    }
+  },
+  "additionalProperties": false
+}
